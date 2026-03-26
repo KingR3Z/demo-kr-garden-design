@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Lucy Smith", rating: 5, text: "Such a beautiful home.  My husband and I stay here with friends every year, and keep returning!  Always spotless when we arrive, with jam and tea to welcome us, and the lovely jacuzzi to unwind in after days in the great New Forest …  ", date: "7 years ago" },
+    { name: "maisjm", rating: 5, text: "Lovely lady, great ideas, but hasn’t got a clue. Zero site supervision and whatever vision she may have had was ruined in the wanton execution. ", date: "8 months ago" },
+    { name: "Tom", rating: 5, text: "Absolutely beautiful place in an amazing location. Would definitely visit again ", date: "8 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
